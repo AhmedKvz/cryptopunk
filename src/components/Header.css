@@ -1,0 +1,76 @@
+.header {
+  color: white;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header > div {
+  margin: 10px;
+}
+
+.search__bar {
+  background-color: #1c1c1e;
+  flex: 1;
+  height: 50px;
+  display: flex;
+  border-radius: 50px;
+  align-items: center;
+}
+
+.punk__logo {
+  width: 200px;
+}
+
+.search__input {
+  text-indent: 5px;
+  background-color: transparent;
+  border: none;
+  width: 100%;
+  outline: none;
+  color: #eee;
+  font-size: 1rem;
+}
+
+.search__icon__container {
+  margin: 10px;
+}
+
+.header__items {
+  display: flex;
+}
+
+.header__items > p {
+  margin: 10px;
+}
+
+.header__actions {
+  display: flex;
+  align-items: center;
+}
+
+.header__actions > div {
+  margin: 10px;
+}
+
+.theme__switch__container {
+  display: flex;
+  border-radius: 50px;
+  background-color: #1c1c1e;
+  padding: 15px;
+  justify-content: center;
+  align-items: center;
+  object-fit: contain;
+}
+
+.theme__switch__container > img {
+  height: 25px;
+}
+
+.login__button {
+  background: linear-gradient(to right, #59f9b7, #66feea);
+  padding: 15px 40px;
+  border-radius: 50px;
+  color: black;
+}
