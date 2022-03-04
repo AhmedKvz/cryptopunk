@@ -6,21 +6,15 @@
   align-items: center;
 }
 
-.header > div {
-  margin: 10px;
-}
-
-.search__bar {
-  background-color: #1c1c1e;
-  flex: 1;
-  height: 50px;
-  display: flex;
-  border-radius: 50px;
-  align-items: center;
-}
-
 .punk__logo {
   width: 200px;
+}
+
+.left__side ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
 .search__input {
@@ -33,39 +27,24 @@
   font-size: 1rem;
 }
 
-.search__icon__container {
-  margin: 10px;
-}
-
-.header__items {
+.right__side {
   display: flex;
-}
-
-.header__items > p {
-  margin: 10px;
-}
-
-.header__actions {
-  display: flex;
-  align-items: center;
-}
-
-.header__actions > div {
-  margin: 10px;
-}
-
-.theme__switch__container {
-  display: flex;
-  border-radius: 50px;
-  background-color: #1c1c1e;
-  padding: 15px;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
-  object-fit: contain;
 }
 
-.theme__switch__container > img {
-  height: 25px;
+.right__side ul {
+  display: flex;
+  max-height: 100%;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.right__side ul p {
+  margin: 10px;
 }
 
 .login__button {
@@ -73,4 +52,56 @@
   padding: 15px 40px;
   border-radius: 50px;
   color: black;
+  cursor: pointer;
+}
+
+.right__side > button {
+  display: none;
+}
+
+#hidden {
+  display: flex;
+}
+
+.menu__icon {
+  width: 40px;
+  max-height: 100%;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 850px) {
+  .login__button {
+    padding: 8px 20px;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .right__side > button {
+    display: flex;
+  }
+
+  .right__side ul {
+    display: none;
+  }
+
+  #hidden {
+    position: absolute;
+    right: 0;
+    top: 100px;
+    height: 230px;
+    width: 100%;
+    background-color: #3c3c3c;
+    flex-direction: column;
+    opacity: 0.9;
+  }
+
+  .title h1 {
+    font-size: 2rem;
+  }
+}
+
+@media only screen and (max-width: 412px) {
+  .punk__logo {
+    width: 100px;
+  }
 }

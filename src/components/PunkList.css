@@ -1,0 +1,13 @@
+.punk__list {
+  display: flex;
+  cursor: pointer;
+  overflow: scroll;
+  margin-top: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid white;
+  scrollbar-width: thin;
+}
+
+.punk__list::-webkit-scrollbar {
+  display: none;
+}
