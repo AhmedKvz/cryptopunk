@@ -1,4 +1,7 @@
    Check it out https://cryptopunkcollectionweb3.netlify.app/
 
 
-   Mobile responsive 412px only
+Responsive web3 NFT collection from ethereum test network.
+
+npm install
+npm start
